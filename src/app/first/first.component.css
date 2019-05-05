@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+ .firstimage {
+                background-image: url("/assets/img/home.png");
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+ .font {
+        font-family: "Segoe UI",Calibri,sans-serif;
+       font-weight: 400;
+       font-size: 50px;
+       letter-spacing: 12px;
+       margin-top: 125px;
+    }
+ .para{
+    font-size: 14px;
+    font-family: "Helvetica", Garamond, 'Comic Sans MS';
+ 
+ }
+ button{width: 225px;}
+ #a{
+    color: white;
+    text-decoration: underline;
+ }
+ .create
+ {
+    background-color: Transparent;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 10px;
+ }
+ .login
+ {
+    margin-top: 2px;
+     font-size: 14px;
+ }

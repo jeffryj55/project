@@ -1,0 +1,29 @@
+<div class="container-fluid ">
+    <tr *ngFor="let policy of bind">
+<div class="row">
+<div class="col-lg-3 col-md-3 "></div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+<a routerLink='/bookmeet/{{policy.id}}'>
+<div class="card flex-row flex-wrap">
+<img src="/assets/img/imae.png">
+<div class="card-block px-2">
+  <div class="d-flex">
+    <p class="card-text mb-0 mr-5">{{policy.name}}</p>
+    <span  id="upper_right">
+       <i class="fa fa-video-camera"></i> &nbsp;
+        <i class="fa fa-wifi"></i>
+    </span>
+  </div>
+    <span class="card-text cardtext" >{{policy.address}}</span><br>
+    <span class="card-text">
+        <span class="cardtext">  </span>
+        <i class="fa fa-chair" style="font-size:10px"></i>
+        <p class="text-success cardtext"><span  id="lower_right">Slots Available</span></p>
+    </span>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-3 col-md-3 mt-3"></div>
+</div>
+</div>

@@ -1,0 +1,82 @@
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: dimgray;
+	font-size: 12px;
+ 
+ }
+ input {
+		   outline: 0;
+		   border-width: 0 0 2px;
+		   border-color: lightgray;
+		   width: 100%;
+		   height: 30px;
+		   font-size: 14px;
+		   color: black;
+ }
+ a{
+	color: red;
+	text-decoration: none;
+		font-size: 13px;
+ }
+ p{
+	color: gray;
+		font-size: 13px;
+ }
+ .button{
+	width: 100%;
+	height: 40px;
+	background-color: #329966;
+	outline: none;
+	color: white;
+	border-radius: 6px;
+ }
+ .font{
+	font-size: 16px;
+ 
+ }
+ input.ng-touched.ng-invalid{
+	border-color: red;
+	}
+	input{
+		border-color: black;
+	}
+	div.validation-error{
+		width: 100%;
+		margin-top: 0.25rem;
+		font-size:80%;
+		color:#dc3545;
+	}
+	table.table-hover tbody tr:hover{
+		cursor: pointer;
+	}
+ 
+	  .table tr {
+		  background:black;
+		  color: lavender;
+		  border:1px solid black;
+ 
+	  }
+	  thead{
+		border:1px solid black;
+	  }
+	  tr:hover{
+		  background: white;
+	  }
+ 
+ .creat{
+	width: 100%;
+	height: 40px;
+ background-color: white;
+	border-radius: 6px;
+ border: 1px solid black;
+ 
+ }
+
+ .create{
+	width: 100%;
+    height: 40px;
+align-content: center;
+    border-radius: 6px;
+
+ }

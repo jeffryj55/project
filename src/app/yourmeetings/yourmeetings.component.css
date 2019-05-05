@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    height: 70px;
+}
+.margin{
+    margin-left: 70px;
+ 
+    
+}
+.para1{
+        font-size: 16px;
+}
+.cardtext{
+    font-size:12px;
+}
+
+.outline{
+    outline: none;
+}
+#upper_right {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    color: #94919a;
+}
+#lower_right {
+    bottom:1%;
+    right: 1%;
+    position: absolute;
+}
